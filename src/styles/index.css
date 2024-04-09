@@ -3,7 +3,7 @@ Basic
 ****************************************/
 :root {
   --TitleFont: Tahoma, Verdana, sans-serif;
-  --Background: linear-gradient(to right, #ffd194, #d1913c);
+  --Background: linear-gradient(to right, #000000, #1c1c1c);
 }
 
 html,

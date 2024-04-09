@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { Header, Footer } from "../";
+import AreaNavigation from "../elements/AreaNavigation";
 
 const HUDStyle = styled.div`
   display: grid;
@@ -12,13 +13,18 @@ const HUDStyle = styled.div`
   grid-template-rows: min-content auto min-content;
   z-index: 10;
   pointer-events: none; // IMPORTANT!
+  >main{
+    display: grid;
+  }
 `;
 
 export function HUD() {
   return (
     <HUDStyle>
       <Header />
-      <main></main>
+      <main>
+        <AreaNavigation />
+      </main>
       <Footer />
     </HUDStyle>
   );

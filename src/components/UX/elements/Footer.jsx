@@ -23,7 +23,7 @@ export function Footer() {
         href="https://codesandbox.io/p/github/Learn3DWeb/template-r3f-basic/main"
         target="_blank"
       >
-        Template: R3F-Basic
+        Template: R3F-Camera-Controller
       </a>
     </FooterStyle>
   );

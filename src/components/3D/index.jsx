@@ -1,10 +1,6 @@
-/**
- * 3D Elements
- */
-export * from './elements/Stage'; 
-export * from './elements/Box';
+export * from './elements/Labels'
+export * from './elements/Lights'
 
-/**
- * Scenes
- */
-export * from './Scenes/Scene3D';  
+export * from "./models/Space"
+
+export * from './scenes/Scene3D'
